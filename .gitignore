@@ -2,7 +2,7 @@ node_modules
 
 .env
 
-.idea
+.idea/*
 .idea_modules/
 
 build/
