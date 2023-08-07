@@ -1,4 +1,4 @@
-name: My CI
+name: my-workflow
 on:
   - push
   - pull_request
