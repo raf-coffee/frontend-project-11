@@ -4,17 +4,27 @@
     "node": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "prettier"
+  ],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
     "parser": "@babel/eslint-parser"
   },
-  "plugins": ["unused-imports", "prettier"],
+  "plugins": [
+    "unused-imports",
+    "prettier"
+  ],
   "rules": {
     "prettier/prettier": "error",
     "no-console": "error",
+    "import/extensions": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
     "unused-imports/no-unused-imports": "error"
   }
 }
